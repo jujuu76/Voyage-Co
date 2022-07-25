@@ -1,0 +1,191 @@
+/* header  */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap");
+body {
+  background-color: rgb(255, 181, 181);
+  margin: 0;
+  
+}
+.background {
+  background-image:  url(img/background.webp) ;
+  background-attachment: fixed;
+ 
+  
+  
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-family: "Cormorant SC", serif;
+  font-size: 300%;
+}
+header {
+  display: flex;
+  background-image: url(img/header2.png);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* nav barre  */
+.contenant-nav {
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  font-family: "Cormorant SC", serif;
+  font-size: 120%;
+  width: 86vw;
+  margin: auto;
+  
+}
+.home {
+  display: flex;
+  
+}
+
+.presentation {
+  display: flex;
+}
+.shop {
+  display: flex;
+}
+.contact {
+  display: flex;
+}
+.research {
+  display: flex;
+  height: 30px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.075); 
+  
+}
+.button {
+  background-color:  rgb(255, 214, 137);
+  border: 1px solid gray;
+  font-family: "Cormorant SC", serif;
+  font-size: 100%;
+  border-radius: 5%;
+}
+.button:hover {
+  background-color: white;
+}
+.bouton {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.bouton:hover {
+  color: rgb(255, 214, 137);
+}
+.loupe {
+  width: 1.5rem;
+  height: auto;
+}
+/* contenu  */
+main {
+  display: flex;
+  background-color: rgb(255, 248, 248);
+  width: 80vw;
+  margin: auto;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+/* bloc  */
+.bloc3 {
+    display: flex;
+    flex-wrap: nowrap ;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/* montagne */
+.montagne {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color:white
+}
+.montagne:hover {
+  background-color: rgb(255, 71, 71);
+  color: white;
+}
+.img-montagne {
+  margin: auto; 
+}
+.title-montagne {
+  margin: auto; 
+    
+}
+.text-montagne {
+    display: flex;
+    text-align: justify;
+    flex-wrap: nowrap;
+}
+/* seychelles */
+.seychelles {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color:white
+}
+.seychelles:hover {
+  background-color:rgb(255, 71, 71);
+  color: white;
+}
+.img-seychelles {
+  margin: auto;
+}
+.title-seychelles {
+  margin: auto; 
+  
+}
+.text-seychelles {
+    display: flex;
+    text-align: justify;
+}
+/* tibet */
+.tibet {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: white
+    
+}
+.tibet:hover {
+  background-color: rgb(255, 71, 71);
+  color: white;
+}
+.img-tibet {
+    margin: auto;
+    
+}
+.title-tibet {
+  margin: auto;
+    
+}
+.text-tibet {
+    display: flex;
+    text-align: justify;  
+}
+/* footer  */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  font-family: "Cormorant SC", serif;
+  font-size: 120%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  color: white;
+}
